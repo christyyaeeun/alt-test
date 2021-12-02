@@ -1,0 +1,49 @@
+header{
+    text-align: center;
+    background-color:  #00acee;
+    padding: 2em 0;
+    color: #ffffff;
+}
+h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+h2{
+    max-width: 20em;
+    text-align: center;
+    margin: 2em auto;
+}
+
+.buttons{
+    margin: 4em 0;
+}
+.buttons a {
+    width: 100%;
+    padding: 1em 0;
+    border-radius: 1.4em;
+}
+
+@media screen and (max-width:  768px){
+    .btn-success{
+        margin-bottom: 1em;
+    }
+}
+
+
+form{
+    max-width: 30em;
+    margin: 4em auto;
+}
+
+input{
+    margin-bottom: 2em;
+}
+
+.error{
+    color: red;
+    font-style: italic;
+    font-size: 12px;
+    float: right;
+}
